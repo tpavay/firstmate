@@ -1,0 +1,4 @@
+ok - real herdr+treehouse: an exhausted pool fails in 6s with treehouse's message and the fresh tab is closed
+ok - real herdr: 20 back-to-back tabs all echoed a marker typed before their first prompt (herdr 0.7.5)
+ok - real herdr+treehouse: the gated treehouse get landed the spawn in /private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-spawn-herdr-readiness-live.4Clt6i/pool/.treehouse/project-e63b2c/1/project
+evidence: herdr=herdr 0.7.5 treehouse=v2.3.0 pool-full-elapsed=6s typeahead-missed=0 default-session-tripwire=armed

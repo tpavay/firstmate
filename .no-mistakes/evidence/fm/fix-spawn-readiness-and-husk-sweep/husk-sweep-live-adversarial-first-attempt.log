@@ -1,0 +1,15 @@
+--- tabs before:
+1 w1:t1
+fm-adv-meta w1:t2
+fm-adv-slot w1:t3
+not-a-task w1:t4
+fm-adv-husk w1:t5
+--- sweep output:
+BOOTSTRAP_INFO: herdr husk fm-adv-slot (fm-lab-fm-husk-adv-44471-27356:w1:p3) kept: its shell sits in claimed pool slot /private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-husk-adv.b2ufPB/pool/7
+BOOTSTRAP_INFO: herdr husk fm-adv-husk (fm-lab-fm-husk-adv-44471-27356:w1:p5) closed
+--- tabs after:
+1 w1:t1
+fm-adv-meta w1:t2
+fm-adv-slot w1:t3
+not-a-task w1:t4
+not ok - meta tab not reported kept

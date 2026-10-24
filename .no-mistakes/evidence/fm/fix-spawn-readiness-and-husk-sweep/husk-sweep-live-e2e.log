@@ -1,0 +1,3 @@
+ok - real herdr: the sweep closed the restored-shape husk and kept the busy tab with its reason (herdr 0.7.5)
+ok - real herdr: a repeat sweep is a no-op for the closed husk
+evidence: herdr=herdr 0.7.5 husk-closed=w1:p2 busy-kept=w1:p3 default-session-tripwire=armed

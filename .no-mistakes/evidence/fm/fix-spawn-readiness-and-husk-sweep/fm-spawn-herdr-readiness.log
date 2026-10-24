@@ -1,0 +1,15 @@
+ok - treehouse get is typed only after the pane proves a lone idle shell
+ok - an exhausted pool fails in seconds with treehouse's message
+ok - a pre-launch abort closes exactly the fresh pane through the exact pane close
+ok - a pre-launch abort after treehouse get returns the slot, then closes the pane
+ok - a pre-launch abort never closes a pane with an agent process under it
+ok - a pre-launch abort keeps the lease and pane of a slot that is not clean
+ok - a pre-launch abort keeps the lease and pane of a slot whose status could not be read
+ok - a polytoken pre-launch abort on Herdr still closes its pane unconditionally
+ok - no echo plus the same idle shell resends treehouse get exactly once
+ok - an echoed treehouse get is never resent
+ok - a replaced shell is never resent treehouse get
+ok - an active-tab refusal leaves the pane and prints the inspect hint
+ok - a pane that never settles is refused before anything is typed
+ok - a client without wait-output keeps the plain poll and never resends
+# all fm-spawn-herdr-readiness tests passed

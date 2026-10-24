@@ -1,0 +1,7 @@
+ok - the sweep closes exactly the orphan bare shell and names why each other candidate stays
+ok - a repeat sweep is a no-op
+ok - the captain's attended active tab is never closed
+ok - an orphan journal is retired only after its own pane is confirmed gone, and a journal naming a live pane protects the tab
+ok - detect-only never sweeps
+ok - a stopped server is left alone rather than started
+# all fm-herdr-husk-sweep tests passed
