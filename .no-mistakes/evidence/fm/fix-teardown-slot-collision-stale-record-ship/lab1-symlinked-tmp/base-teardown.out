@@ -1,0 +1,4 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv
+REFUSED: task owner-task's recorded worktree /private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv/pool/.treehouse/demo-e5827a/1/demo is also task parked-task's recorded worktree.
+Returning that pool slot would kill parked-task's processes and reset its copy, so nothing was changed - not even with --force.
+Reconcile whichever record is wrong (bin/fm-crew-state.sh owner-task; bin/fm-crew-state.sh parked-task), then re-run teardown.

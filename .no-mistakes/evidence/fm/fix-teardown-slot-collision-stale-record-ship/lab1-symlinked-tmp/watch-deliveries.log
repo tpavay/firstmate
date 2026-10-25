@@ -1,0 +1,4 @@
+10358	Sat Oct 24 20:10:56 2026     bash /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/bin/fm-watch.sh	check: slot-audit parked-task slot-lost
+12284	Sat Oct 24 20:11:06 2026     bash /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/bin/fm-watch.sh	check: rearm-resurface
+12858	Sat Oct 24 20:11:11 2026     bash /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/bin/fm-watch.sh	stale: firstmate:fm-owner-task
+15376	Sat Oct 24 20:11:13 2026     bash /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/bin/fm-watch.sh	check: rearm-resurface

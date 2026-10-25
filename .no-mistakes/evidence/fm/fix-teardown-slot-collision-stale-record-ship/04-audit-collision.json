@@ -1,0 +1,2 @@
+{"task":"sc444522-claimant","slot":"/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes","claim":"mine","claimant":"sc444522-claimant","worker":"in-slot","worker_cwd":"","pool":"in-use","verdict":"ok","home":""}
+{"task":"sc444522-parked","slot":"/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes","claim":"other","claimant":"sc444522-claimant","worker":"outside","worker_cwd":"/private/tmp/fmsc.oOWYWw/home/projects/notes","pool":"in-use","verdict":"slot-lost","home":""}

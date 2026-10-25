@@ -1,0 +1,5 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+REFUSED: task owner-task's recorded worktree /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo is also task parked-task's recorded worktree.
+Returning that pool slot would kill parked-task's processes and reset its copy, so nothing was changed - not even with --force.
+Reconcile whichever record is wrong (bin/fm-crew-state.sh owner-task; bin/fm-crew-state.sh parked-task), then re-run teardown.

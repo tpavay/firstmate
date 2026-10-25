@@ -1,0 +1,12 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+warning: task parked-task's record still names pool slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo, which task owner-task claimed afterwards; that record is stale and parked-task needs a fresh slot (bin/fm-control.sh parked-task relaunch --fresh-slot --note <what happened>). Its record and endpoint are left untouched.
+teardown: reaping leaked worktree process(es) for owner-task: 30129 36316
+teardown: force-killing leaked worktree process(es) for owner-task: 30129
+A new version of treehouse is available: v2.3.0 → v3.1.5
+Run "treehouse update" to update
+
+🌳 Worktree returned to pool.
+warning: task parked-task's record still names pool slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo, which task owner-task claimed afterwards; that record is stale and parked-task needs a fresh slot (bin/fm-control.sh parked-task relaunch --fresh-slot --note <what happened>). Its record and endpoint are left untouched.
+teardown owner-task complete (window firstmate:fm-owner-task, worktree /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo)
+Backlog: owner-task just finished (this home keeps no markdown backlog at /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/data/backlog.md). Update /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/data/backlog.md - move owner-task to Done, keep Done to the 10 most recent, then re-scan Queued and dispatch only work whose blockers are gone and date is due.

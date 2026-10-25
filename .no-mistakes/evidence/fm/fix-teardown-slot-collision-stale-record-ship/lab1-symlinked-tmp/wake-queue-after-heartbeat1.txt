@@ -1,0 +1,1 @@
+1792890659	1	check	slot-audit:parked-task	check: slot-audit parked-task slot-lost - slot-audit: parked-task slot=/private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv/pool/.treehouse/demo-e5827a/1/demo claim=other:owner-task worker=outside:/private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv/projects/demo pool=unlisted verdict=slot-lost

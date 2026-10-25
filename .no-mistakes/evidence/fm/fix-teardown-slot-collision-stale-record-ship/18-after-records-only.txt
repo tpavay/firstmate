@@ -1,0 +1,18 @@
+== slot 2 after
+.
+..
+notes
+/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes
+slot dir left in place
+== meta
+ls: /private/tmp/fmsc.oOWYWw/home/state/sc444522-parked.meta: No such file or directory
+== wakes
+check	slot-audit:sc444522-parked	check: slot-audit sc444522-parked records-only - pool slot /private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes was left in place because --records-only was given, the recorded endpoint reads missing, and no process of this task is inside the slot (claim: mine); re-read the pool (bin/fm-slot-audit.sh --all) before relying on that slot
+== backlog
+6:- [x] sc444522-parked - lab worker sc444522-parked (repo: notes) (kind: ship) (done 2026-10-24)
+7-  records-only: slot /private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes left in place because --records-only was given, the recorded endpoint reads missing, and no process of this task is inside the slot (claim: mine)
+8-  local main
+9-- [x] sc444522-claimant - lab worker sc444522-claimant (repo: notes) (kind: ship) (done 2026-10-24)
+== pool
+{"path":"/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes","status":"available","lease_holder":""}
+{"path":"/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes","status":"leased","lease_holder":"sc444522-parked"}

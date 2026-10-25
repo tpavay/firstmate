@@ -1,0 +1,11 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no watcher has a fresh beacon (last beat: never, grace 300s).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, watcher supervision needs Stop-owned automatic recovery; inspect the hook registration and startup status before ending the turn.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+warning: slot-audit: claude-task slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo claim=mine worker=outside:/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/projects/demo pool=available verdict=slot-unprotected,worker-outside-slot - the treehouse get this spawn is about to run may take that slot; re-protect or rebind its task (bin/fm-control.sh <id> relaunch --note <text>, with --fresh-slot once the slot has been reassigned)
+spawned taker-task harness=sleep kind=scout window=firstmate:fm-taker-task worktree=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo

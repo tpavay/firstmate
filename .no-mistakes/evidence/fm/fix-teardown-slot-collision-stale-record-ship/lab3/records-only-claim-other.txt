@@ -1,0 +1,14 @@
+slot-audit: taker2-task slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo claim=other:taker3-task worker=outside:/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/projects/demo pool=in-use verdict=slot-lost
+=== records-only taker2-task (claim other:taker3-task)
+warning: task taker2-task's recorded worktree /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo was reassigned to task taker3-task (home /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3), which claimed that pool slot after this record was written; that slot is no longer taker2-task's, so its processes, copy, and claim are left untouched and only taker2-task's own cleanup runs.
+teardown taker2-task complete (window firstmate:fm-taker2-task; pool slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo left to task taker3-task (home /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3), which it was reassigned to; records-only: slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo left in place because the slot was reassigned to task taker3-task)
+Backlog: taker2-task is closed in /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/data/backlog.md. Run bin/fm-tasks-axi.sh ready for dependency-cleared candidates, check date gates, and dispatch only work whose blockers are gone and date is due.
+rc=0
+ls: /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/state/taker2-task.meta: No such file or directory
+--- slot 3 claim
+task=taker3-task
+home=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3
+taker3 pane alive in slot 3
+slot-audit: taker3-task slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo claim=mine worker=in-slot pool=in-use verdict=ok
+- [x] taker2-task - lab lane that takes the codex slot data/taker2-task/report.md (repo: demo) (reported 2026-10-24)
+  records-only: slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo left in place because the slot was reassigned to task taker3-task

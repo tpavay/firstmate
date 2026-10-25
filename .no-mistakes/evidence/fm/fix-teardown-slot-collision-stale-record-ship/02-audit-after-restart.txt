@@ -1,0 +1,1 @@
+slot-audit: sc444522-parked slot=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes claim=mine worker=outside:/private/tmp/fmsc.oOWYWw/home/projects/notes pool=available verdict=slot-unprotected,worker-outside-slot

@@ -1,0 +1,18 @@
+teardown: dropped taker-task's own claim on pool slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo; the slot holds no process and is left in place
+teardown taker-task complete (window firstmate:fm-taker-task; records-only: slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo left in place because --records-only was given, the recorded endpoint reads dead, and no process of this task is inside the slot (claim: mine))
+Backlog: taker-task is closed in /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/data/backlog.md. Run bin/fm-tasks-axi.sh ready for dependency-cleared candidates, check date gates, and dispatch only work whose blockers are gone and date is due.
+--- record
+ls: /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/state/taker-task.meta: No such file or directory
+--- slot 1 claim
+cat: /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/.fm-slot-owner: No such file or directory
+slot 1 checkout still present
+--- backlog diff
+5d4
+< - [ ] taker-task - lab finished lane that takes the slot (repo: demo) (since 2026-10-24)
+8a8,9
+> - [x] taker-task - lab finished lane that takes the slot data/taker-task/report.md (repo: demo) (reported 2026-10-24)
+>   records-only: slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo left in place because --records-only was given, the recorded endpoint reads dead, and no process of this task is inside the slot (claim: mine)
+--- wake queue
+check	slot-audit:taker-task	check: slot-audit taker-task records-only - pool slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo was left in place because --records-only was given, the recorded endpoint reads dead, and no process of this task is inside the slot (claim: mine); re-read the pool (bin/fm-slot-audit.sh --all) before relying on that slot
+--- pool
+1     available    ~/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo

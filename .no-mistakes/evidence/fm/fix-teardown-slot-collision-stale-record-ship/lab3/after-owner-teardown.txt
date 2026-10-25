@@ -1,0 +1,19 @@
+--- records
+parked-task.meta
+--- parked-task.meta diff (before -> after)
+10a11,13
+> slot_stale=1792890949
+> slot_stale_by=owner-task
+> slot_stale_slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo
+--- slot claim
+cat: /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/.fm-slot-owner: No such file or directory
+--- pool
+1     available    ~/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo
+--- wake queue
+1792890958	1	check	slot-audit:parked-task	check: slot-audit parked-task stale-record - its record still names pool slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo, which task owner-task held and has now returned to the pool; relaunch it into a fresh slot (bin/fm-control.sh parked-task relaunch --fresh-slot --note <what happened>)
+--- windows
+driver /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1
+fm-parked-task /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/projects/demo
+parked-task pane 28488 still alive
+--- audit
+slot-audit: parked-task slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo claim=absent worker=outside:/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/projects/demo pool=available verdict=slot-lost

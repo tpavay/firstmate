@@ -1,0 +1,14 @@
+slot-audit: taker2-task slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo claim=absent worker=outside:/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/projects/demo pool=in-use verdict=slot-unprotected,worker-outside-slot
+slot-audit: taker3-task slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo claim=absent worker=in-slot pool=in-use verdict=slot-unprotected
+=== teardown taker3-task (claim absent)
+REFUSED: task taker3-task's recorded worktree /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo is also task taker2-task's recorded worktree.
+Returning that pool slot would kill taker2-task's processes and reset its copy, so nothing was changed - not even with --force.
+Reconcile whichever record is wrong (bin/fm-crew-state.sh taker3-task; bin/fm-crew-state.sh taker2-task), then re-run teardown.
+rc=1
+=== with --force
+REFUSED: task taker3-task's recorded worktree /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo is also task taker2-task's recorded worktree.
+Returning that pool slot would kill taker2-task's processes and reset its copy, so nothing was changed - not even with --force.
+Reconcile whichever record is wrong (bin/fm-crew-state.sh taker3-task; bin/fm-crew-state.sh taker2-task), then re-run teardown.
+rc=1
+/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/state/taker2-task.meta
+/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/state/taker3-task.meta

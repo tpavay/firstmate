@@ -1,0 +1,21 @@
+== A.meta
+worktree=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes
+== new slot claim
+task=sc444522-parked
+home=/private/tmp/fmsc.oOWYWw/home
+== copied presentation
+sc444522-parked-board.html
+== old slot listing unchanged?
+3c3
+< drwxr-xr-x@ 5 tylerpavay  wheel  160 Oct 24 20:52 ..
+---
+> drwxr-xr-x@ 6 tylerpavay  wheel  192 Oct 24 20:52 ..
+== pane
+cwd=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes cmd=2.1.310
+== audit
+slot-audit: sc444522-parked slot=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes claim=mine worker=in-slot pool=leased verdict=ok
+== crew-state
+state: paused · source: status-log · waiting for the captain, lab worker doing no work · worker=in-slot
+== pool
+{"path":"/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes","status":"dirty","lease_holder":""}
+{"path":"/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes","status":"leased","lease_holder":"sc444522-parked"}

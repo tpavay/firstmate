@@ -1,0 +1,2 @@
+REFUSED: pool slot /private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes holds process(es) that are not task sc444522-claimant's own endpoint chain: 2482(sleep).
+Its claim says the slot is sc444522-claimant's, but returning it would kill them; find out whose they are (bin/fm-slot-audit.sh --all; lsof -d cwd), move or stop them, then re-run. Nothing was changed - not even with --force.

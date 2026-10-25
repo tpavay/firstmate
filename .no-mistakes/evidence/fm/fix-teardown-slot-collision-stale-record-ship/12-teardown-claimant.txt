@@ -1,0 +1,10 @@
+warning: task sc444522-parked's record still names pool slot /private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes, which task sc444522-claimant claimed afterwards; that record is stale and sc444522-parked needs a fresh slot (bin/fm-control.sh sc444522-parked relaunch --fresh-slot --note <what happened>). Its record and endpoint are left untouched.
+teardown: reaping leaked worktree process(es) for sc444522-claimant: 26679 32272 33144 33145 33873 33961
+teardown: force-killing leaked worktree process(es) for sc444522-claimant: 26679
+A new version of treehouse is available: v2.3.0 → v3.1.5
+Run "treehouse update" to update
+
+🌳 Worktree returned to pool.
+warning: task sc444522-parked's record still names pool slot /private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes, which task sc444522-claimant claimed afterwards; that record is stale and sc444522-parked needs a fresh slot (bin/fm-control.sh sc444522-parked relaunch --fresh-slot --note <what happened>). Its record and endpoint are left untouched.
+teardown sc444522-claimant complete (window firstmate:fm-sc444522-claimant, worktree /private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes)
+Backlog: sc444522-claimant is closed in /private/tmp/fmsc.oOWYWw/home/data/backlog.md. Run bin/fm-tasks-axi.sh ready for dependency-cleared candidates, check date gates, and dispatch only work whose blockers are gone and date is due.

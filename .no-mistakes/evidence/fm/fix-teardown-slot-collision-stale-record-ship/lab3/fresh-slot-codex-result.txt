@@ -1,0 +1,39 @@
+fresh-slot: copied 2 presentation entry(ies) from /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo/.lavish into /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/4/demo/.lavish/
+relaunched codex-lane harness=codex from=codex model=default effort=default backend=tmux endpoint=firstmate:fm-codex-lane worktree=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/4/demo fresh_slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/4/demo old_slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo (left to its claimant taker2-task)
+--- codex-lane.meta diff
+3c3
+< worktree=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo
+---
+> worktree=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/4/demo
+11c11,12
+< spawn_gen=s1792891221.86276.10472
+---
+> spawn_gen=s1792891261.18780.12165
+> control_relaunch_tx=17928.20261025T012100Z.26498
+--- new slot .lavish
+codex-lane-board.html
+codex-lane-notes.md
+--- new slot claim
+task=codex-lane
+home=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3
+--- old slot 3 claim and lavish (must be untouched)
+task=taker2-task
+home=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3
+old .lavish unchanged
+taker2 pane 2824 alive
+--- pool
+1     in-use       ~/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo
+                   zsh (46927), sleep (48291)
+2     leased       ~/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/2/demo  (held by claude-task)
+                   bash (45409), codex (74774)
+3     in-use       ~/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo
+                   zsh (3559), sleep (9476)
+4     leased       ~/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/4/demo  (held by codex-lane)
+                   bash (2259), codex (22402)
+--- pane
+/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/4/demo codex
+--- audit
+slot-audit: claude-task slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/2/demo claim=mine worker=in-slot pool=leased verdict=ok
+slot-audit: codex-lane slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/4/demo claim=mine worker=in-slot pool=leased verdict=ok
+slot-audit: taker-task slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo claim=mine worker=in-slot pool=in-use verdict=ok
+slot-audit: taker2-task slot=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/3/demo claim=mine worker=in-slot pool=in-use verdict=ok

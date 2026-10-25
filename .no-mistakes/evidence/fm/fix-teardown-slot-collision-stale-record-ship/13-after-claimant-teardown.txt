@@ -1,0 +1,18 @@
+== A.meta diff (before teardown of B -> after)
+16c16
+< slot_stale=1792893109
+---
+> slot_stale=1792893118
+== tmux windows
+lab dead=0 cwd=/private/tmp/fmsc.oOWYWw
+fm-sc444522-parked dead=0 cwd=/private/tmp/fmsc.oOWYWw/home/projects/notes
+== claim file
+.
+..
+notes
+== wake rows
+check	slot-audit:sc444522-parked	check: slot-audit sc444522-parked stale-record - its record still names pool slot /private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes, which task sc444522-claimant held and has now returned to the pool; relaunch it into a fresh slot (bin/fm-control.sh sc444522-parked relaunch --fresh-slot --note <what happened>)
+== B meta
+ls: /private/tmp/fmsc.oOWYWw/home/state/sc444522-claimant.meta: No such file or directory
+== audit
+slot-audit: sc444522-parked slot=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes claim=absent worker=outside:/private/tmp/fmsc.oOWYWw/home/projects/notes pool=available verdict=slot-lost

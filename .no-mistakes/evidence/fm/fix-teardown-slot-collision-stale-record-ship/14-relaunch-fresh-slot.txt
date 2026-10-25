@@ -1,0 +1,3 @@
+fresh-slot: copied 1 presentation entry(ies) from /private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes/.lavish into /private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes/.lavish/
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+relaunched sc444522-parked harness=claude from=claude model=sonnet effort=low backend=tmux endpoint=firstmate:fm-sc444522-parked worktree=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes fresh_slot=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/2/notes old_slot=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes (left to its claimant none)

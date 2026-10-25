@@ -1,0 +1,12 @@
+window=firstmate:fm-claude-task
+endpoint_task_id=claude-task
+worktree=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo
+project=/Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/projects/demo
+harness=claude
+approval_mode=bypass
+kind=scout
+tasktmp=/tmp/fm-claude-task
+model=haiku
+effort=default
+busy_gen=g1792891027.93062.25839
+spawn_gen=s1792891027.83664.30652

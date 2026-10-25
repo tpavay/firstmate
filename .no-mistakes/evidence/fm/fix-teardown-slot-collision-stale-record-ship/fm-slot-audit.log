@@ -1,0 +1,15 @@
+ok - fm-slot-audit: own claim, worker in the slot, pool in use reads ok
+ok - fm-slot-audit: a slot claimed by another task reads slot-lost
+ok - fm-slot-audit: an absent claim reads slot-unprotected
+ok - fm-slot-audit: an unsafe claim reads slot-unprotected, never ok
+ok - fm-slot-audit: a herdr record whose server is stopped reads no-endpoint without starting a server
+ok - fm-slot-audit: an available slot with a drifted worker reads slot-unprotected,worker-outside-slot
+ok - fm-slot-audit: pool read failure, --no-pool, and an unlisted slot are told apart
+ok - fm-slot-audit: an endpoint that answers no path reads no-endpoint
+ok - fm-slot-audit: a recorded slot directory that is gone reads slot-lost
+ok - fm-slot-audit: a record carrying the stale-slot marker for its slot reads slot-lost
+ok - fm-slot-audit: another home's record keeps the exact line format and --json carries its home
+ok - fm-slot-audit: records outside a pool and secondmates print nothing
+ok - fm-slot-audit: --json carries every column as a field
+ok - fm-slot-audit: usage errors exit 2 and an unknown task exits 1
+ok - fm-spawn: slot-unprotected audit lines are warned about before treehouse get

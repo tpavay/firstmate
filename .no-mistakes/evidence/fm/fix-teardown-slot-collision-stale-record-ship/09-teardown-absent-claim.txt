@@ -1,0 +1,3 @@
+REFUSED: task sc444522-claimant's recorded worktree /private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes is also task sc444522-parked's recorded worktree.
+Returning that pool slot would kill sc444522-parked's processes and reset its copy, so nothing was changed - not even with --force.
+Reconcile whichever record is wrong (bin/fm-crew-state.sh sc444522-claimant; bin/fm-crew-state.sh sc444522-parked), then re-run teardown.

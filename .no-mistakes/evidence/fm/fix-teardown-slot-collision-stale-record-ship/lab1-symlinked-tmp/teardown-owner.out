@@ -1,0 +1,9 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv
+warning: task parked-task's record still names pool slot /private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv/pool/.treehouse/demo-e5827a/1/demo, which task owner-task claimed afterwards; that record is stale and parked-task needs a fresh slot (bin/fm-control.sh parked-task relaunch --fresh-slot --note <what happened>). Its record and endpoint are left untouched.
+teardown: reaping leaked worktree process(es) for owner-task: 93489 95035
+teardown: force-killing leaked worktree process(es) for owner-task: 93489
+A new version of treehouse is available: v2.3.0 → v3.1.5
+Run "treehouse update" to update
+
+worktree /private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv/pool/.treehouse/demo-e5827a/1/demo is not managed by treehouse
+error: treehouse return failed for worktree /private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv/pool/.treehouse/demo-e5827a/1/demo; teardown aborted

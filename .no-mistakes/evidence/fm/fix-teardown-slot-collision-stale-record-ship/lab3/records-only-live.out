@@ -1,0 +1,4 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+REFUSED: --records-only needs task taker-task's recorded endpoint proven dead or agent-less, but it reads 'ambiguous'; a task whose worker may still be bound to its slot needs the full teardown. Nothing was changed.

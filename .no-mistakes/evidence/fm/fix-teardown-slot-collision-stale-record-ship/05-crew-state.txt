@@ -1,0 +1,2 @@
+state: paused · source: status-log · paused waiting for the captain · worker=outside:/private/tmp/fmsc.oOWYWw/home/projects/notes
+state: done · source: status-log · nothing to change · worker=in-slot

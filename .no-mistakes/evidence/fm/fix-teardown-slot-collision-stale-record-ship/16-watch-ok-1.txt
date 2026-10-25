@@ -1,0 +1,1 @@
+signal: /private/tmp/fmsc.oOWYWw/home/state/sc444522-parked.status /private/tmp/fmsc.oOWYWw/home/state/sc444522-parked.turn-ended

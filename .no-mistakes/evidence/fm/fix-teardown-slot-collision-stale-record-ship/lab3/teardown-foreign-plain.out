@@ -1,0 +1,4 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+REFUSED: pool slot /Users/tylerpavay/.no-mistakes/worktrees/79e139438bd4/01M5R6CVHH75B1MC76F58KAVR1/.fmlab3/pool/.treehouse/demo-baaee8/1/demo holds process(es) that are not task owner-task's own endpoint chain: 47831(sleep).
+Its claim says the slot is owner-task's, but returning it would kill them; find out whose they are (bin/fm-slot-audit.sh --all; lsof -d cwd), move or stop them, then re-run. Nothing was changed - not even with --force.

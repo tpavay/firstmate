@@ -1,0 +1,9 @@
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no watcher has a fresh beacon (last beat: never, grace 300s).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  repair missing watcher supervision according to the session-start block for this harness; do not use shell &.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+warning: slot-audit: sc444522-parked slot=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes claim=mine worker=outside:/private/tmp/fmsc.oOWYWw/home/projects/notes pool=available verdict=slot-unprotected,worker-outside-slot - the treehouse get this spawn is about to run may take that slot; re-protect or rebind its task (bin/fm-control.sh <id> relaunch --note <text>, with --fresh-slot once the slot has been reassigned)
+spawned sc444522-claimant harness=claude kind=ship mode=local-only yolo=on window=firstmate:fm-sc444522-claimant worktree=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes

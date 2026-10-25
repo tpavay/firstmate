@@ -1,0 +1,2 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv
+spawned parked-task harness=sleep kind=scout window=firstmate:fm-parked-task worktree=/private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv/pool/.treehouse/demo-e5827a/1/demo

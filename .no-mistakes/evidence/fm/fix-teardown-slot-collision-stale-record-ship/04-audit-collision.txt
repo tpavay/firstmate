@@ -1,0 +1,2 @@
+slot-audit: sc444522-claimant slot=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes claim=mine worker=in-slot pool=in-use verdict=ok
+slot-audit: sc444522-parked slot=/private/tmp/fmsc.oOWYWw/treehouse/.treehouse/notes-444305/1/notes claim=other:sc444522-claimant worker=outside:/private/tmp/fmsc.oOWYWw/home/projects/notes pool=in-use verdict=slot-lost

@@ -1,0 +1,10 @@
+window=firstmate:fm-parked-task
+endpoint_task_id=parked-task
+worktree=/private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv/pool/.treehouse/demo-e5827a/1/demo
+project=/private/var/folders/m3/qgj4gq85293_kqsxz93qlp3m0000gn/T/fm-lab.ofrXuv/projects/demo
+harness=sleep
+kind=scout
+tasktmp=/tmp/fm-parked-task
+model=default
+effort=default
+spawn_gen=s1792890588.68215.3395
